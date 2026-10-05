@@ -1,0 +1,215 @@
+{
+  "seed": 20261005,
+  "field": "F2",
+  "max_vertices": 9,
+  "started_utc": "2026-10-05T13:13:44.794292+00:00",
+  "self_checks": [
+    "C5: N1 true, exchange-order impossible, H1(F2)=F2",
+    "rotated C5: fixed-face poset empty",
+    "transposed edge: geometric fixed point, no fixed vertex",
+    "C4: N1 false",
+    "octahedral sphere: H2(F2)=F2",
+    "order DP agrees with direct permutation search on all 143 connected atlas graphs with <=6 vertices; disconnected graphs rejected"
+  ],
+  "census": {
+    "1": {
+      "all_unlabelled_graphs": 1,
+      "connected": 1,
+      "N1": 1,
+      "exchange": 1,
+      "dismantlable_exchange": 1,
+      "compatible_group_attempts": 2
+    },
+    "2": {
+      "all_unlabelled_graphs": 2,
+      "connected": 1,
+      "N1": 1,
+      "exchange": 1,
+      "dismantlable_exchange": 1,
+      "compatible_group_attempts": 3
+    },
+    "3": {
+      "all_unlabelled_graphs": 4,
+      "connected": 2,
+      "N1": 2,
+      "exchange": 2,
+      "dismantlable_exchange": 2,
+      "compatible_group_attempts": 10
+    },
+    "4": {
+      "all_unlabelled_graphs": 11,
+      "connected": 6,
+      "N1": 5,
+      "exchange": 5,
+      "dismantlable_exchange": 5,
+      "compatible_group_attempts": 35
+    },
+    "5": {
+      "all_unlabelled_graphs": 34,
+      "connected": 21,
+      "N1": 17,
+      "exchange": 16,
+      "dismantlable_exchange": 16,
+      "compatible_group_attempts": 116
+    },
+    "6": {
+      "all_unlabelled_graphs": 156,
+      "connected": 112,
+      "N1": 71,
+      "exchange": 67,
+      "dismantlable_exchange": 67,
+      "compatible_group_attempts": 465
+    },
+    "7": {
+      "all_unlabelled_graphs": 1044,
+      "connected": 853,
+      "N1": 416,
+      "exchange": 382,
+      "dismantlable_exchange": 382,
+      "compatible_group_attempts": 2368
+    }
+  },
+  "random": {
+    "7": {
+      "attempts": 20000,
+      "connected": 15673,
+      "N1": 10623,
+      "exchange": 9988,
+      "dismantlable_exchange": 9988,
+      "symmetric_attempts": 10000,
+      "compatible_nontrivial_group_attempts": 4922
+    },
+    "8": {
+      "attempts": 20000,
+      "connected": 16432,
+      "symmetric_attempts": 10000,
+      "N1": 9009,
+      "exchange": 8482,
+      "dismantlable_exchange": 8482,
+      "compatible_nontrivial_group_attempts": 4099
+    },
+    "9": {
+      "attempts": 20000,
+      "connected": 17510,
+      "N1": 7952,
+      "exchange": 7216,
+      "dismantlable_exchange": 7216,
+      "symmetric_attempts": 10000,
+      "compatible_nontrivial_group_attempts": 3444
+    }
+  },
+  "fixed_checks": 34007,
+  "fixed_failures": [],
+  "nondismantlable_exchange_examples": [],
+  "scope": "All NetworkX atlas graphs with 1..7 vertices; exact order and dismantling DP. Seeded random 7..9 vertex graphs. No inference from acyclicity to contractibility.",
+  "v2_seven_vertex_example": {
+    "rank": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "dismantling_certificate": [
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "top_6_dominated": false,
+    "all_lower_vertices_dominated_by_6": true
+  },
+  "elapsed_seconds": 33.259,
+  "finished_utc": "2026-10-05T13:14:18.053481+00:00",
+  "limitations": [
+    "Random tests do not exhaust n=8 or n=9.",
+    "Only sampled subgroups, and rank assignments found by the block-order solver, were tested.",
+    "Reduced F2 homology is a counterexample filter; zero homology is not a proof of contractibility.",
+    "The fixed order-complex computation uses the explicitly verified orbit-face-poset isomorphism; it does not enumerate every subdivision chain.",
+    "No claim about infinite graphs follows from this census."
+  ]
+}

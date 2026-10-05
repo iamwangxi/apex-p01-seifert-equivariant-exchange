@@ -1,0 +1,34 @@
+{
+  "started_utc": "2026-10-05T13:13:44.798815+00:00",
+  "max_vertices": 9,
+  "time_budget_seconds": 1200,
+  "coverage_argument": "Tie-break any finite exchange rank. Removing its largest vertex leaves an exchange graph by sublevel heredity. Extend all lower-order isomorphism representatives by all nonempty neighborhoods.",
+  "atlas_7_exchange_parents": 382,
+  "eight": {
+    "extension_candidates": 48514,
+    "N1_candidates": 30125,
+    "exchange_candidates": 28576,
+    "unlabelled_exchange_graphs": 3209,
+    "dismantlable_unlabelled_exchange_graphs": 3209,
+    "parents_processed": 382
+  },
+  "nine": {
+    "total_parents": 3209,
+    "extension_candidates": 818295,
+    "N1_candidates": 457564,
+    "dismantlable_N1_candidates": 437361,
+    "nondismantlable_N1_candidates": 20203,
+    "parents_processed": 3209,
+    "unprocessed_parents": 0
+  },
+  "eight_complete": true,
+  "nine_complete": true,
+  "nondismantlable_exchange_examples": [],
+  "limitations": [
+    "Counts of extension candidates include isomorphic duplicates.",
+    "Nine-vertex exchange graphs are not counted: exchange-order solving is required only for candidates failing dismantlability.",
+    "This is a finite-size result, not a proof for arbitrary finite graphs."
+  ],
+  "elapsed_seconds": 66.564,
+  "finished_utc": "2026-10-05T13:14:51.362608+00:00"
+}
