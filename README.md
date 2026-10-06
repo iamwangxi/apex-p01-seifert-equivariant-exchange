@@ -18,7 +18,7 @@ An exchange complex is nonempty, connected and flag, with a well-ordered complex
 
 The theorem has no local-finiteness, countability, finite-dimension or finite-complexity-fiber assumption. It concerns **finite groups preserving complexity**; it does not extend Przytycki–Schultens's arbitrary-subgroup result for the minimal-genus complex. Hensel–Osajda–Przytycki have a finite dismantlable-graph fixed-point theorem and an infinite criterion requiring finite dismantling projections, equivariance, no infinite cliques and, in the invariant-clique alternative, synchronisation. Those projection data are not supplied by the exchange axioms. This package does not prove that appropriate projections cannot exist or that all coverage by previous criteria has been excluded.
 
-The exhaustive computation finds **all finite exchange graphs with at most nine vertices dismantlable**. HOP's finite theorem therefore already covers that finite-size fixed-point conclusion. The computations suggest possible coverage of the general finite case but do not prove it; the finite case is not presented as a novelty claim. For groups satisfying PS's data conventions, its finite invariant simplex already passes from $MS$ to $IS$ (checked preprint p. 5); the proposed application contributes contractibility of the entire $IS$ fixed space.
+The exhaustive computation finds **all finite exchange graphs with at most nine vertices dismantlable**. HOP's finite theorem therefore already covers that finite-size fixed-point conclusion. The computations suggest possible coverage of the general finite case but do not prove it; the finite case is not presented as a novelty claim. For groups satisfying PS's data conventions, its finite invariant simplex already passes from $`MS`$ to $`IS`$ (checked preprint p. 5); the proposed application contributes contractibility of the entire $`IS`$ fixed space.
 
 The Seifert application constructs invariant geometric data within the target's exact warped-collar scope. It does not independently reprove the target's external area-minimization assertions or certify all its internal analytic arguments. A fixed point yields a finite invariant simplex of isotopy classes, not an individual invariant embedded surface or an equivariant simultaneous realization. A finite mapping-class subgroup needs a separate realization step before the metric construction applies.
 
@@ -44,6 +44,10 @@ From the repository root, `shasum -a 256 -c MANIFEST.sha256` (macOS) or `sha256s
 A separate fresh-context GPT-6.1 Sol adversarial review found no mathematical break in the abstract proof or invariant-data construction. Its two literature corrections and two clarification suggestions have been incorporated: HOP coverage remains unresolved, exact projection conditions are stated, the full analytic input statements are retained, and PS already supplies nonemptiness for its data-preserving groups.
 
 GPT-6.1 Sol, in OpenAI Codex under human direction, developed the proof, ran the computations where applicable, and drafted this text; a separate GPT-6.1 Sol session in a fresh context performed an adversarial review. Claude planned the work, checked key steps against the sources, and reviewed and edited the final text. No human expert has certified the work.
+
+## Revision note
+
+This revision differs from `f8828558f0ed9a47d269713db93fc63d138dadb9` only in how formulas are written. GitHub's Markdown processing removed backslash escapes such as `\{` and `\,` inside `$...$` and did not recognise some formulas, so every formula now uses GitHub's literal math syntax. No mathematical text was changed.
 
 ## License
 

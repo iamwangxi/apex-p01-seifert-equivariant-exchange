@@ -18,7 +18,7 @@
 
 定理只处理有限保复杂度群作用，没有推广 Przytycki–Schultens 对最小亏格复形的任意子群结论。Hensel–Osajda–Przytycki 的无限图判据要求逐点有限 dismantling projections、投影族等变、没有无限 clique；使用不变 clique 的分支还要求 synchronised。交换公理本身没有给出这些数据。本仓库不证明这类投影不存在，也不声称已经排除全部既有判据的覆盖可能。
 
-穷尽计算显示，**至多 9 个顶点的有限交换图全部可拆**，因此这个规模内的固定点结论已被 HOP 的有限图定理覆盖。一般有限交换图是否都可拆仍未证明；有限情形不作为独立新颖性主张。对于满足 PS 数据条件的有限群，其不变单形从 $MS$ 嵌入 $IS$ 即给已有非空性（已核预印本 p. 5）；本应用的候选增量是整个 $IS$ 不动点空间的可缩性。
+穷尽计算显示，**至多 9 个顶点的有限交换图全部可拆**，因此这个规模内的固定点结论已被 HOP 的有限图定理覆盖。一般有限交换图是否都可拆仍未证明；有限情形不作为独立新颖性主张。对于满足 PS 数据条件的有限群，其不变单形从 $`MS`$ 嵌入 $`IS`$ 即给已有非空性（已核预印本 p. 5）；本应用的候选增量是整个 $`IS`$ 不动点空间的可缩性。
 
 Seifert 应用在目标论文式 (2) 的精确 warped collar 范围内构造不变几何数据，但不独立重证外部面积极小化输入，也不认证目标论文全部内部分析论证。几何固定点只给有限不变单形，即可同时取不交代表的有限组曲面同痕类；不推出单个不变嵌入曲面或整族等变实现。只有有限映射类子群而没有实际群作用时，还需另行实现。
 
@@ -44,6 +44,10 @@ Seifert 应用在目标论文式 (2) 的精确 warped collar 范围内构造不�
 全新上下文 GPT-6.1 Sol 对抗复核未发现抽象证明或不变几何数据构造的数学断点。报告的两项文献修补与两项澄清建议已纳入：HOP 覆盖关系仍未决，投影条件完整列明，分析输入按完整陈述使用，并明确 PS 数据条件下的非空性已有来源。
 
 GPT-6.1 Sol, in OpenAI Codex under human direction, developed the proof, ran the computations where applicable, and drafted this text; a separate GPT-6.1 Sol session in a fresh context performed an adversarial review. Claude planned the work, checked key steps against the sources, and reviewed and edited the final text. No human expert has certified the work.
+
+## 版本说明
+
+本版本与 `f8828558f0ed9a47d269713db93fc63d138dadb9` 相比，只改了公式的写法。GitHub 的 Markdown 处理会去掉 `$...$` 里的 `\{`、`\,` 等反斜杠转义，还有部分公式没被识别，所以全部公式改用 GitHub 的原样数学语法。数学文字没有任何改动。
 
 ## 许可
 
